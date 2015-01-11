@@ -1,4 +1,4 @@
-cymreigio
+cymreigio.js
 =========
 
 Llyfrgell JavaScript syml i gyfieithu termau i'r Gymraeg
