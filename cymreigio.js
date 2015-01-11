@@ -27,38 +27,48 @@ var cymreigio = {
 		return dydd;
 	},
 	
-	rhifDydd: function(dydd) {
+	rhifMis: function(mis) {
 	 	
-	 	var dyddTemp ='';
-	 	var rhifDydd ='';
+	 	var rhifMisTemp ='';
+	 	var rhifMis ='';
 	 	
-	 	if (dydd.length != 2)
+	 	if (mis.length != 2)
 	 	{
-	 		rhifDydd = "0"+dydd;
+	 		rhifMis = "0"+mis;
 	 	}
 	 	else{
-	 		rhifDydd = dydd;
+	 		rhifMis = mis;
 	 	}
 		
-		switch(rhifDydd){
-			case "01": dyddTemp ="Llun";
+		switch(rhifMis){
+			case "01": rhifMisTemp ="Ionawr";
 			break;
-			case "02": dyddTemp ="Mawrth";
+			case "02": rhifMisTemp ="Chwefror";
 			break;
-			case "03": dyddTemp ="Mercher";
+			case "03": rhifMisTemp ="Mawrth";
 			break;
-			case "04": dyddTemp ="Iau";
+			case "04": rhifMisTemp ="Ebrill";
 			break;
-			case "05": dyddTemp ="Gwener";
+			case "05": rhifMisTemp ="Mai";
 			break;
-			case "06": dyddTemp ="Sadwrn";
+			case "06": rhifMisTemp ="Mehefin";
 			break;
-			case "07": dyddTemp ="Sul";
+			case "07": rhifMisTemp ="Gorffenaf";
 			break;
-			default: dyddTemp = dydd;
+			case "08": rhifMisTemp ="Awst";
+			break;
+			case "09": rhifMisTemp ="Medi";
+			break;
+			case "10": rhifMisTemp ="Hydref";
+			break;
+			case "11": rhifMisTemp ="Tachwedd";
+			break;
+			case "11": rhifMisTemp ="Rhagfyr";
+			break;
+			default: rhifMisTemp = mis;
 		}
-		dydd = dyddTemp;
-		return dydd;
+		mis = rhifMisTemp;
+		return mis;
 	},
 	
 	
