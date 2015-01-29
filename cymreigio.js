@@ -53,7 +53,7 @@ var cymreigio = {
 			break;
 			case "06": rhifMisTemp ="Mehefin";
 			break;
-			case "07": rhifMisTemp ="Gorffenaf";
+			case "07": rhifMisTemp ="Gorffennaf";
 			break;
 			case "08": rhifMisTemp ="Awst";
 			break;
